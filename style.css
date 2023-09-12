@@ -1,0 +1,55 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    width: 98vw;
+    display: flex;
+    margin: auto;
+}
+
+
+ /* main alignment  */
+body>div.left-side{
+    flex: 1;
+    height: 98vh;
+    background: url(images/background.jpg) no-repeat ;
+    position: relative;
+}
+
+body>div.form-content{
+    flex: 2;
+    height: 98vh;
+}
+
+/* the left side styling */
+
+/* logo alignment */
+
+body>div.left-side>div.logo{
+    width: 100%;
+    height: 100px;
+    opacity: 0.7;
+    background-color: #030502;
+    
+    /* to make the word sarrow aligned well with the image*/
+    
+    display: flex;
+    align-items: center;
+
+    position: absolute;
+    top: 100px;
+
+
+}
+body>div.left-side>div.logo>div.logo-title{
+    font-style: italic;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+    font-weight: 800;
+    font-size: 40px;
+    letter-spacing: 5px;
+}
+
+/* end of left side align ment */
+/* ############################################### */
