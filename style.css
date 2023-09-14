@@ -88,7 +88,9 @@ body>div.form-content>p.caption{
 }
 body>div.form-content div.sign-up{
     width: 100%;
-    padding: 10px 30px;
+    padding-top: 10px;
+    padding-left: 30px;
+    padding-right: 100px;
     background-color: #ffffff;
     box-shadow: 0.5px 0.3px #e6e7e8;
 }
@@ -108,3 +110,30 @@ form>.submit-section>button[type="submit"]{
 }
 
 /* end of making the layout of the left side  */
+
+
+
+
+/* making the layout of the form */
+
+form>div.sign-up{
+    display: flex;
+    flex-direction: column;
+
+}
+
+form>div.sign-up>div.fields>p{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    float: left;
+    padding-right: 20px;
+}
+
+form>div.sign-up>div.fields>p>input{
+    width: 70%;
+
+}
+
+
+/* end of the layout of the form */
