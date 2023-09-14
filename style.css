@@ -21,6 +21,13 @@ body>div.form-content{
     flex: 2;
     height: 98vh;
 }
+/* end of main alignment */
+
+
+
+/* #################################### */
+
+
 
 /* the left side styling */
 
@@ -52,4 +59,52 @@ body>div.left-side>div.logo>div.logo-title{
 }
 
 /* end of left side align ment */
+
+
+
+
+
 /* ############################################### */
+
+
+
+
+/* start styling the right side */
+
+body>div.form-content{
+    background-color: #f9fafb;
+    display: flex;
+    flex-direction: column;
+}
+body>div.form-content>p.caption{
+    padding-left: 30px;
+    padding-right: 17%;
+    font-weight: 500;
+    font-size: 20px;
+    color: #616162;
+    margin-top: 30px ;
+    margin-bottom: 50px;
+
+}
+body>div.form-content div.sign-up{
+    width: 100%;
+    padding: 10px 30px;
+    background-color: #ffffff;
+    box-shadow: 0.5px 0.3px #e6e7e8;
+}
+
+form>.submit-section{
+    padding-left: 30px;
+    margin-top: 15px;
+    font-size: 15px;
+}
+
+form>.submit-section>button[type="submit"]{
+    padding: 3px 30px;
+    border-radius: 7px;
+    font-size: 15px;
+    background-color: #596d48;
+    color: white;
+}
+
+/* end of making the layout of the left side  */
