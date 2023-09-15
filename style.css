@@ -132,8 +132,34 @@ form>div.sign-up>div.fields>p{
 
 form>div.sign-up>div.fields>p>input{
     width: 70%;
-
+    border: 0.5px solid #f3f4f6;
+    border-radius:7px ;
+    padding: 5px 15px;
+    font-size: 18px;
 }
 
 
 /* end of the layout of the form */
+
+/* active section*/
+
+input:focus{
+
+    border:0.1px solid #404b69;
+    box-shadow: 30px 30px#7f9be8;
+
+}
+
+input:valid{
+
+    border:0.6px solid  #99cf6d;
+    
+}
+
+
+input:invalid{
+    border:0.6px solid  #dc8d8d;
+    box-shadow: 1px 1px #da8989;
+
+}
+/* end of active section */
